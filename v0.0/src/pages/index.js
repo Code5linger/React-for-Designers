@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Card from '../components/Card'
 
 const IndexPage = () => (
   <div>
@@ -28,6 +29,27 @@ const IndexPage = () => (
             " />
           </path>
         </svg>
+      </div>
+    </div>
+    <div className="Cards">
+      <h2>11 Courses, more Coming</h2>
+      <div className="CardGroup">
+        <Card 
+          title="Design System"
+          text="10 Section"
+          image={require('../images/wallpaper.jpg')} />
+        <Card 
+          title="React for Designers"
+          text="12 Section"
+          image={require('../images/wallpaper.jpg')} />
+        <Card 
+          title="Sound Design"
+          text="5 Section"
+          image={require('../images/wallpaper.jpg')} />
+        <Card 
+          title="ARKit 2"
+          text="10 Section"
+          image={require('../images/wallpaper.jpg')} />
       </div>
     </div>
   </div>
