@@ -33,4 +33,4 @@ React for Developer v1.0
   2/12
     ➡ On layout/index.css
     apple system Font Added with pultiple backups. 
-    Css Reset(meyerweb) Used ()
+    Css Reset(meyerweb) Used
