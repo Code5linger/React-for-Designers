@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Omega v2.0',
+
+    title: 'Omega v5.0',
+
   },
   plugins: ['gatsby-plugin-react-helmet'],
 }
