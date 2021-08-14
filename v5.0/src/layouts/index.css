@@ -19,8 +19,6 @@ a {
 
 .HeroGroup {
   margin: 0 auto;
-  max-width: 500px;
-  padding: 150px 50px;
   text-align: left;
 }
 
@@ -48,6 +46,35 @@ a {
   border-radius: 7px;
   outline: none;
   cursor: pointer;
+}
+.HeroGroupSide {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.Wrapper {
+  background: linear-gradient(180deg, #4316db 0%, #9076e7 100%);
+  max-width: 1234px;
+  margin: 0 auto;
+  padding: 100px 300px;
+
+  display: grid;
+  grid-template-columns: 560px auto;
+}
+
+.ContentWrapper {
+  max-width: 1234px;
+  margin: 0 auto;
+  padding: 200px 30px;
+  gap: 300px;
+  display: grid;
+  grid-template-columns: 360px auto;
+}
+
+.TextWrapper {
+  max-width: 360px;
+  display: grid;
+  gap: 30px;
 }
 
 @media (max-width: 640px) {
