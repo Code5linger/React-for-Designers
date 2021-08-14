@@ -38,12 +38,26 @@ a {
 }
 
 .Hero a {
-  font-size: 17px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 500;
   color: white;
   text-transform: uppercase;
-  background: rgba(0, 0, 0, 0.7);
-  padding: 9px 20px;
+  background: #C31A12;
+  padding: 15px 50px;
   border: 1px solid rgba(255, 255, 255, 0.25);
-  border-radius: 20px;
+  border-radius: 7px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  .HeroGroup {
+    padding: 100px 20px;
+  }
+  .Hero h {
+    font-size: 40px;
+  }
+  .Hero p {
+    font-size: 24px;
+  }
 }
